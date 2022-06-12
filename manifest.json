@@ -9,7 +9,6 @@
         "service_worker": "background.js"
     },
     "action": {
-        "default_title": "Press To Change Color",
         "default_popup": "popup/popup.html",
         "default_icon": {
             "16": "/images/get_started16.png",
