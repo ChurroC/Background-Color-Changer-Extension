@@ -1,0 +1,27 @@
+{
+    "name": "Hello World BG Color Changer",
+    "description": "First Extension!",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": ["storage", "activeTab", "scripting"],
+    "options_page": "options/options.html",
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_title": "Press To Change Color",
+        "default_popup": "popup/popup.html",
+        "default_icon": {
+            "16": "/images/get_started16.png",
+            "32": "/images/get_started32.png",
+            "48": "/images/get_started48.png",
+            "128": "/images/get_started128.png"
+        }
+    },
+    "icons": {
+        "16": "/images/get_started16.png",
+        "32": "/images/get_started32.png",
+        "48": "/images/get_started48.png",
+        "128": "/images/get_started128.png"
+    }
+}
